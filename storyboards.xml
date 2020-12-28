@@ -1,18 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<theme>
+<theme defaultView="Tiles">
   <formatVersion>7</formatVersion>
   <view name="system">
     <image name="ControllerOverlay" extra="true">
       <opacity>0</opacity>
       <scale>0</scale>
       <storyboard>
-        <animation property="scale" from="0" to="1" begin="400" duration="250" mode="easeInOut"/>
-        <animation property="opacity" from="0" to="1" begin="400" duration="250" mode="linear"/>
+        <animation property="scale" from="0" to="1" begin="400" duration="350" mode="easeIn"/>
+        <animation property="opacity" from="0" to="1" begin="400" duration="350" mode="easeInOut"/>
       </storyboard>
     </image>
-    <carousel name="systemcarousel">
-      <defaultTransition>fade &amp; slide</defaultTransition>
-    </carousel>
   </view>
   <view name="basic, detailed">
     <textlist name="gamelist">
@@ -31,9 +28,8 @@
       </storyboard>
     </imagegrid>
   </view>
-
   <view name="basic, detailed, grid">
-    <image name="logo">
+    <image name="logo" extra="true">
       <storyboard>
         <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
         <animation property="opacity" from="0" to="1" duration="350" mode="easeIn"/>
@@ -41,19 +37,4 @@
       </storyboard>
     </image>
   </view>
-  
-  <feature supported="manufacturer">
-    <view name="system">
-      <text name="systemInfoEx" extra="true">      
-        <storyboard>
-          <animation property="opacity" from="0" to="0" duration="1" mode="linear"/>
-        
-          <animation property="opacity" from="0" to="1" begin="750" duration="250" mode="easeIn"/>
-          <animation property="scale" from="0" to="1" begin="750" duration="250" mode="easeOut"/> 
-          
-       <!--   <animation property="y" from="0.75" begin="750" duration="250" mode="easeOut"/> -->
-        </storyboard>
-      </text>
-    </view>
-  </feature>
 </theme>
