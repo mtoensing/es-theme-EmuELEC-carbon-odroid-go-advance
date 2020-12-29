@@ -5,7 +5,7 @@
   <view name="system">
    <carousel name="systemcarousel">
       <defaultTransition>fade &amp; slide</defaultTransition>
-    </carousel>    
+    </carousel>
 
     <image name="background" extra="true">
       <tile>false</tile>
@@ -18,14 +18,17 @@
       <zIndex>11</zIndex>
     </image>
 
-    <image name="background" extra="true" region="eu"></image>
 		<image name="background" extra="true" region="us">
 		  <path>./art/background/us/${system.theme}.jpg</path>
 		</image>
-		
+
 		<image name="background" extra="true" region="jp">
 		  <path>./art/background/jp/${system.theme}.jpg</path>
 		</image>
+
+    <image name="background" extra="true" region="eu">
+      <path>./art/background/eu/${system.theme}.jpg</path>
+    </image>
 
 
     <image name="ControllerOverlay" extra="true">
