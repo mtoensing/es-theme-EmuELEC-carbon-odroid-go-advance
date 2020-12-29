@@ -10,10 +10,10 @@ The EmulationStation Theme "Graphite OGA" is highly optimized for the Odroid Go 
 
 Even more information about the Odroid Go Advance in my Blog post: https://marc.tv/odroid-go-advance-retro-handheld/ (German)
 
-Changelog
-=========
+# Changelog
 
 ===12/29/2020===
+
 Added better icons for NeoGeo, PlayStation and NeoGeo Pocket
 Added Super Nintendo (European)
 Added Master System (European)
@@ -21,6 +21,7 @@ Added much bigger font size
 Added genre and removed description
 
 ===08/16/2016===
+
 Added Super Grafx
 Added PC Engine CD-Rom�
 Added Turbo Grafx CD
@@ -28,6 +29,7 @@ Removed metadata labels (only the actual meta data is shown)
 Re-positioned elements slightly
 
 ===07/08/2016===
+
 Complete re-write.
 Simplified all system theme.xml files.
 Theme color can be changed by finding and replacing colors in carbon.xml
@@ -37,6 +39,7 @@ Kid-Friendly icons and code added
 Flipper sound removed
 
 ===9/19/2015===
+
 Missing controllers added:
 Colecovision
 Gamecube
@@ -44,7 +47,8 @@ PS2
 X-11
 Wii
 
-License
+# License
+
 =======
 
 -------------------------------------------------------------------------
