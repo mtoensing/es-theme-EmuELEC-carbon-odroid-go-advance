@@ -292,11 +292,10 @@ originally based on: "simple" by nils bonenberger
       <activityColor>A0A0FFC0</activityColor>
       <hotkeyColor>FFA0A0C0</hotkeyColor>
     </controllerActivity>
-    <!--
+
     <controllerActivity name="controllerActivity" tinyScreen="true">
      <visible>false</visible>
     </controllerActivity>
--->
     <batteryIndicator name="batteryIndicator">
       <pos>0.955 0.0125</pos>
       <size>0.033 0.033</size>
