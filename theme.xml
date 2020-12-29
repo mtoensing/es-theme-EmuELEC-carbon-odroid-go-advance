@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--
-Theme: es-theme-carbon
-author: Fabrice CARUSO
+Theme: es-theme-carbon-ordoid-go-advance
+author: Fabrice CARUSO / Marc Tönsing
 license: creative commons CC-BY-NC-SA
 originally based on: "Carbon" by Eric Hettervik (Rookervik)
 originally based on: "simple" by nils bonenberger
 -->
-<theme defaultView="Tiles">
+<theme defaultView="detailed">
   <formatVersion>7</formatVersion>
   <variables>
     <baseColor>8b0000</baseColor>
@@ -144,7 +144,11 @@ originally based on: "simple" by nils bonenberger
 
     </image>
 
-    <image name="logo" region="eu"></image>
+    <image name="logo" region="eu">
+		  <path>./art/logos/eu/${system.theme}.png</path>
+			<path>./art/logos/eu/${system.theme}.svg</path>
+		</image>
+
 		<image name="logo" region="us">
 		  <path>./art/logos/us/${system.theme}.png</path>
 			<path>./art/logos/us/${system.theme}.svg</path>
