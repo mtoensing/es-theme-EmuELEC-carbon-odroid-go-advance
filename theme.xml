@@ -585,6 +585,13 @@ originally based on: "simple" by nils bonenberger
       <alignment>left</alignment>
       <fontSize>0.035</fontSize>
     </text>
+    <text name="md_genre">
+      <color>EFEFFF</color>
+      <pos>0.550 0.810</pos>
+      <size>0.30 0.05</size>
+      <alignment>left</alignment>
+      <fontSize>0.035</fontSize>
+    </text>
     <rating name="md_rating">
       <pos>0.55 0.886</pos>
       <size>0.05 0.03</size>
@@ -639,7 +646,7 @@ originally based on: "simple" by nils bonenberger
 
     <image name="md_manual">
       <path>./art/manual.svg</path>
-      <pos>0.882 0.9</pos>
+      <pos>0.882 1.9</pos>
       <maxSize>0.02 0.03</maxSize>
       <origin>0.5 0.5</origin>
       <color>969696</color>
