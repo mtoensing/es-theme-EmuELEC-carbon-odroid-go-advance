@@ -1,12 +1,12 @@
-Theme 'MarcTV OGA' v2.5 - 12-29-2020 by Marc Tönsing - https://marc.tv
+Theme 'Graphite OGA' v2.5 - 12-29-2020 by Marc Tönsing - https://marc.tv
 based on 'carbon' v2.4 - 08-16-2016 by Rookervik
 based on simple(c) Nils Bonenberger - nilsbyte@nilsbyte.de - http://blog.nilsbyte.de/
 For use with EmulationStation (http://www.emulationstation.org/)
 
-The EmulationStation Theme "MarcTV OGA" is highly optimized for the Odroid Go Advance and Odroid Go Advance Black.
+The EmulationStation Theme "Graphite OGA" is highly optimized for the Odroid Go Advance and Odroid Go Advance Black.
 
 ![picture](https://marc.tv/media/2020/12/odroid-go-advance-theme-emuelec-g2.png)
-![picture](https://marc.tv/media/2020/12/odroid-go-advance-theme-emuelec-system.png) 
+![picture](https://marc.tv/media/2020/12/odroid-go-advance-theme-emuelec-system.png)
 
 Even more information about the Odroid Go Advance in my Blog post: https://marc.tv/odroid-go-advance-retro-handheld/ (German)
 
