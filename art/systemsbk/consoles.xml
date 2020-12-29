@@ -6,7 +6,7 @@
   <view name="system">
      <carousel name="systemcarousel">
       <defaultTransition>fade &amp; slide</defaultTransition>
-    </carousel>    
+    </carousel>
     <image name="ControllerOverlay" extra="true">
       <path>./../consoles/default.png</path>
       <path>./../consoles/${system.theme}.png</path>
@@ -15,7 +15,9 @@
       <color>FFFFFFF0</color>
       <zIndex>21</zIndex>
     </image>
-    <image name="ControllerOverlay" extra="true" region="eu"/>
+    <image name="ControllerOverlay" extra="true" region="eu">
+      <path>./art/consoles/eu/${system.theme}.png</path>
+    </image>
     <image name="ControllerOverlay" extra="true" region="us">
       <path>./art/consoles/us/${system.theme}.png</path>
     </image>

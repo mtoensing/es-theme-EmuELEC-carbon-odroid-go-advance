@@ -713,7 +713,10 @@ originally based on: "simple" by nils bonenberger
 <zIndex>30</zIndex>
     </image>
 
-    <image name="logo" extra="true" region="eu"/>
+    <image name="logo" extra="true" region="eu">
+		  <path>./art/logos/eu/${system.theme}.png</path>
+			<path>./art/logos/eu/${system.theme}.svg</path>
+		</image>
 		<image name="logo" extra="true" region="us">
 		  <path>./art/logos/us/${system.theme}.png</path>
 			<path>./art/logos/us/${system.theme}.svg</path>
