@@ -3,9 +3,11 @@ based on 'carbon' v2.4 - 08-16-2016 by Rookervik
 based on simple(c) Nils Bonenberger - nilsbyte@nilsbyte.de - http://blog.nilsbyte.de/
 For use with EmulationStation (http://www.emulationstation.org/)
 
-Carbon OGA is highly optimized for the Odroid Go Advance and Odroid Go Advance Black.
+Carbon OGA is highly optimized for the Odroid Go Advance and Odroid Go Advance Black. 
 
 ![picture](https://marc.tv/media/2020/12/odroid-go-advance-theme-emuelec.png)
+
+Even more information about the Odroid Go Advance in my Blog post: https://marc.tv/odroid-go-advance-retro-handheld/ (German)
 
 Changelog
 =========
