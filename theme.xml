@@ -183,7 +183,7 @@ originally based on: "simple" by nils bonenberger
 
   <feature supported="manufacturer">
     <view name="system">
-      <text name="manufacturerName" extra="static">
+      <text name="manufacturerName" extra="true">
         <text>${system.manufacturer}</text>
         <alignment>left</alignment>
         <verticalAlignment>top</verticalAlignment>
@@ -215,7 +215,7 @@ originally based on: "simple" by nils bonenberger
         <glowSize>2</glowSize>
       </text>
 -->
-      <text name="releaseYyear" extra="static">
+      <text name="releaseYyear" extra="true">
         <text>${system.releaseYearOrNull}</text>
         <alignment>left</alignment>
         <verticalAlignment>top</verticalAlignment>
@@ -293,11 +293,11 @@ originally based on: "simple" by nils bonenberger
       <at50>./art/battery/50.svg</at50>
       <at25>./art/battery/25.svg</at25>
       <empty>./art/battery/empty.svg</empty>
-      <color>FFFFFFA0</color>
+      <color>FFFFFF80</color>
     </batteryIndicator>
     <batteryIndicator name="batteryIndicator" tinyScreen="true">
-      <pos>0.915 0.013</pos>
-      <size>0.07 0.07</size>
+      <pos>0.9 0.011</pos>
+      <size>0.08 0.08</size>
     </batteryIndicator>
   </view>
   <view name="menu">
@@ -405,19 +405,19 @@ originally based on: "simple" by nils bonenberger
       <color>FFFFFF09</color>
       <zIndex>11</zIndex>
     </image>
-
+    <!-- basic -->
     <textlist name="gamelist">
-      <selectedColor>${baseColor}</selectedColor>
+      <selectorColor>${baseColor}</selectorColor>
       <selectedColor>FFFFFF</selectedColor>
       <primaryColor>C0C0C0</primaryColor>
       <secondaryColor>808080</secondaryColor>
       <fontPath>./art/Cabin-Regular.ttf</fontPath>
-      <fontSize>0.045</fontSize>
+      <forceUppercase>0</forceUppercase>
       <pos>0.025 0.18</pos>
       <size>0.950 0.73</size>
       <alignment>center</alignment>
       <horizontalMargin>0.01</horizontalMargin>
-      <forceUppercase>0</forceUppercase>
+      <fontSize>0.045</fontSize>
       <scrollSound>./art/scroll.wav</scrollSound>
       <scrollbarColor>96969620</scrollbarColor>
       <scrollbarCorner>0.49</scrollbarCorner>
@@ -438,16 +438,13 @@ originally based on: "simple" by nils bonenberger
       <showSnapshotDelay>true</showSnapshotDelay>
       <loops>1</loops>
       <roundCorners>0.02</roundCorners>
-
       <storyboard>
         <animation property="opacity" from="0" to="1" duration="800" mode="easeIn"/>
         <!--<animation property="scale" from="0" to="1" duration="800" mode="easeOutCubic"/>-->
       </storyboard>
-
       <storyboard event="snapshot">
         <animation property="opacity" from="0" to="1" duration="350" mode="easeIn"/>
       </storyboard>
-
     </video>
 
     <image name="background">
@@ -484,40 +481,38 @@ originally based on: "simple" by nils bonenberger
     <image name="detailsBk" extra="true">
       <path>./art/filter.png</path>
       <color>00000030</color>
-<colorEnd>00000000</colorEnd>
-<gradientType>horizontal</gradientType>
+      <colorEnd>00000000</colorEnd>
+      <gradientType>horizontal</gradientType>
       <origin>0 0</origin>
       <pos>0.53 0.16</pos>
       <size>0.50 0.774</size>
- <size>0.1 0.774</size>
+      <size>0.1 0.774</size>
       <zIndex>12</zIndex>
     </image>
 
     <image name="detailsBkR" extra="true">
       <path>./art/filter.png</path>
       <color>00000000</color>
-<colorEnd>00000030</colorEnd>
-<gradientType>horizontal</gradientType>
+      <colorEnd>00000030</colorEnd>
+      <gradientType>horizontal</gradientType>
       <origin>0 0</origin>
       <pos>0.525 0.16</pos>
-     <size>0.005 0.774</size>
+      <size>0.005 0.774</size>
       <zIndex>12</zIndex>
     </image>
-
+    <!-- detailed -->
     <textlist name="gamelist">
       <selectorColor>${baseColor}</selectorColor>
       <selectedColor>FFFFFF</selectedColor>
       <primaryColor>C0C0C0</primaryColor>
       <secondaryColor>808080</secondaryColor>
-      <fontPath>./art/Cabin-Bold.ttf</fontPath>
+      <fontPath>./art/Cabin-Regular.ttf</fontPath>
       <forceUppercase>0</forceUppercase>
       <pos>0.021 0.18</pos>
       <size>0.489 0.73</size>
       <alignment>left</alignment>
       <horizontalMargin>0.00</horizontalMargin>
-      <fontSize>0.03</fontSize>
-      <fontPath>./art/Cabin-Regular.ttf</fontPath>
-      <fontSize>0.042</fontSize>
+      <fontSize>0.045</fontSize>
       <scrollSound>./art/scroll.wav</scrollSound>
       <scrollbarColor>96969620</scrollbarColor>
       <scrollbarCorner>0.49</scrollbarCorner>
