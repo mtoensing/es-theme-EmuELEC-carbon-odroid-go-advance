@@ -552,8 +552,8 @@ originally based on: "simple" by nils bonenberger
 
     <image name="md_flag">
       <origin>0 0.5</origin>
-      <pos>0.55 1.9</pos>
-      <maxSize>0.02 0.05</maxSize>
+      <pos>0.9 0.91</pos>
+      <maxSize>0.06 0.15</maxSize>
     </image>
     <text name="md_developer">
       <color>EFEFFF</color>
