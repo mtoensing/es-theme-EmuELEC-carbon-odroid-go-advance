@@ -553,7 +553,7 @@ originally based on: "simple" by nils bonenberger
     <image name="md_flag">
       <origin>0 0.5</origin>
       <pos>0.9 0.9</pos>
-      <maxSize>0.06 0.15</maxSize>
+      <maxSize>0.05 0.12</maxSize>
     </image>
     <text name="md_developer">
       <color>EFEFFF</color>
@@ -570,7 +570,7 @@ originally based on: "simple" by nils bonenberger
       <fontSize>0.035</fontSize>
     </text>
     <rating name="md_rating">
-      <pos>0.55 0.875</pos>
+      <pos>0.55 0.87</pos>
       <size>0.05 0.06</size>
       <color>FFFFFF</color>
       <unfilledColor>808080</unfilledColor>
@@ -624,7 +624,7 @@ originally based on: "simple" by nils bonenberger
     <image name="md_manual">
       <path>./art/manual.svg</path>
       <pos>0.87 0.9</pos>
-      <maxSize>0.05 0.06</maxSize>
+      <maxSize>0.04 0.05</maxSize>
       <origin>0.5 0.5</origin>
       <color>969696</color>
       <zIndex>150</zIndex>
